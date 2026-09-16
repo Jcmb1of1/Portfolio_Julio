@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a {
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 2px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    display: inline-block;
+}
+header{
+    background-color: #0A151E;
+    padding: 15px;
+}
+h1 {
+    font-size: 35px;
+    color: white;
+    display: inline;
+    margin-left: 470px;
+}

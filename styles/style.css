@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./istockphoto-2161298305-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav a {
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 2px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    display: inline-block;
+}
+header{
+    background-color: #0A151E;
+    padding: 15px;
+}
+h1 {
+    font-size: 35px;
+    color: white;
+    display: inline;
+    margin-left: 470px;
+}
+.principal {
+    margin-top: 140px;
+    margin-inline: auto;
+    font-size: 40px;
+    color: white;
+    width: 700px;
+    font-family: "Oswald", serif;
+    a{
+        color: #FFE38A;
+        text-decoration: none;
+    }
+}
+p{
+    margin-top: 100px;
+    margin-inline: auto;
+    font-size: 40px;
+    color: white;
+    width: 700px;
+    font-family: "Oswald", serif;
+    margin-bottom: 50px;
+}
+.Github {
+    display: block;
+    margin-inline: auto;
+    font-size: 20px;
+    text-decoration: none;
+    border: 3px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 70px;
+    width: 120px;
+}
+.Excel{
+    color: #217346;
+}
+.Python{
+    color: #FFD43B;
+}
+.HTML {
+    color: #E34F26;
+}
+.CSS{
+    color: #1572B6;
+}
+.Matplotlib{
+    color: #C75C5C;
+}
+.Pandas{
+    color: #3B82F6;
+}
+.Power_BI{
+    color: #F2C811;
+}
+hr{
+    margin-top: 90px;
+}
+.ultimo_p{
+    font-size: 15px;
+    a{
+        color: white;
+    }
+    margin-bottom: 100px;
+}
