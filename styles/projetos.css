@@ -23,3 +23,21 @@ h1 {
     display: inline;
     margin-left: 470px;
 }
+.ultimo_p{
+    font-size: 15px;
+    a{
+        color: white;
+    }
+}
+p{
+    margin-top: 100px;
+    margin-inline: auto;
+    font-size: 40px;
+    color: white;
+    width: 700px;
+    font-family: "Oswald", serif;
+    margin-bottom: 50px;
+}
+body{
+    background-color: black;
+}
