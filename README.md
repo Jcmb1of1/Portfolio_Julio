@@ -1,5 +1,5 @@
-## Meu Portfólio
-# Categorias
+# Meu Portfólio
+## Categorias
 - inicio
 - projetos
 - contato
