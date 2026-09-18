@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(./istockphoto-2161298305-612x612.jpg);
+    background-image: url(../assets/istockphoto-2161298305-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
