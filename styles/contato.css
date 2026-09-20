@@ -68,13 +68,10 @@ div{
     margin-inline: auto;
     border-radius: 30px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     align-items: center;
 }
 a{
     color: white;
     text-decoration: none;
-}
-div p{
-    margin-bottom: 5px;
 }
