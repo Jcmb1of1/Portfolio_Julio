@@ -30,26 +30,27 @@ h1 {
     }
     margin-inline: auto;
     width: fit-content;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 p{
-    margin-top: 100px;
-    margin-inline: auto;
+    margin-block: 60px;
     font-size: 40px;
     color: white;
     width: 700px;
     font-family: "Oswald", serif;
-    margin-bottom: 50px;
+
 }
 body{
-    background-image: url(../assets/Fundo_cinza.jpg);
+    background-image: url(../assets/image_20260926_161325.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 h2{
-    width: 400px;
-    color: white;
+    width: fit-content;
     margin-inline: auto;
-    margin-top: 20px;
+    color: white;
+    margin-top: 50px;
     text-align: center;
     font-size: 40px;
 }
@@ -58,26 +59,54 @@ img{
     width: 20px;
     margin-left: 30px;
 }
-.linkedin{
-    width: 40px;
-    margin-left: 20px;
-}
-.instagram{
-    width: 35px;
-    margin-left: 20px;
-}
-div{
-    margin-top: 40px;
-    width: 700px;
-    margin-inline: auto;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    align-items: center;
-    p {
-        font-size: 25px;
-    }
-}
+
 a{
     color: white;
     text-decoration: none;
+}
+.instagram{
+    margin-inline: auto;
+    p{
+        width: fit-content;
+        margin-inline: auto;
+        height: fit-content;
+        a{
+            color: white;
+            font-family: 'Oswald', serif;
+        }
+        padding: 20px;
+    }
+    background-color: rgba(225, 48, 108, 1);
+    width: 500px;
+    border-radius: 30px;
+}
+.email{
+    margin-inline: auto;
+    p{
+        width: fit-content;
+        margin-inline: auto;
+        height: fit-content;
+        color: white;
+        padding: 20px;
+    }
+    background-color: rgba(234, 67, 53, 1);
+    width: 600px;
+    border-radius: 30px;
+    margin-block: 20px;
+}
+.linkedin{
+    margin-inline: auto;
+    p{
+        width: fit-content;
+        margin-inline: auto;
+        height: fit-content;
+        a{
+            color: white;
+            font-family: 'Oswald', serif;
+        }
+        padding: 20px;
+    }
+    background-color: rgba(10, 102, 194, 1);
+    width: 650px;
+    border-radius: 30px;
 }
