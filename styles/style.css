@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../assets/istockphoto-2161298305-612x612.jpg);
+    background-image: url(../assets/image_20260926_161325.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -29,7 +29,7 @@ h1 {
     margin-left: 470px;
 }
 .principal {
-    margin-top: 140px;
+    margin-top: 100px;
     margin-inline: auto;
     font-size: 40px;
     color: white;
@@ -62,37 +62,13 @@ p{
     margin-top: 70px;
     width: 120px;
 }
-.Excel{
-    color: #217346;
-}
-.Python{
-    color: #FFD43B;
-}
-.HTML {
-    color: #E34F26;
-}
-.CSS{
-    color: #1572B6;
-}
-.Matplotlib{
-    color: #C75C5C;
-}
-.Pandas{
-    color: #3B82F6;
-}
-.Power_BI{
-    color: #F2C811;
-}
-hr{
-    margin-top: 90px;
-}
+
 .ultimo_p{
     font-size: 15px;
     a{
         color: white;
     }
     margin-bottom: 100px;
-}
-.C_CPP{
-    color: #00599C;
+    margin-inline: auto;
+    width: fit-content;
 }

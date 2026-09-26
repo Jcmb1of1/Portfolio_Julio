@@ -28,6 +28,9 @@ h1 {
     a{
         color: white;
     }
+    margin-inline: auto;
+    width: fit-content;
+    
 }
 p{
     margin-top: 100px;
