@@ -39,22 +39,8 @@ header{
     max-width: fit-content;
     margin-inline: auto;
 }
-h1 {
-    font-size: 35px;
-    color: white;
-    display: inline;
-    margin-left: 470px;
-}
 
-p{
-    margin-top: 100px;
-    margin-inline: auto;
-    font-size: 40px;
-    color: white;
-    width: 700px;
-    font-family: "Oswald", serif;
-    margin-bottom: 50px;
-}
+
 .Github {
     display: block;
     margin-inline: auto;
