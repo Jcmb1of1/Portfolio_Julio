@@ -3,24 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --cor_header: #1C1C1C;
+    --fonte_texto: "Tiny5 Duo";
+}
 body{
-    background-image: url(../assets/image_20260926_161325.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #F0EFEC;
 }
 nav a {
-    border: 1px solid white;
-    padding: 10px 20px;
-    margin: 2px 20px;
     text-decoration: none;
     color: white;
-    background-color: black;
-    border-radius: 30px;
-    display: inline-block;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
 }
+
+nav a:hover{
+    border-bottom-color: white;
+}
+
+.atual{
+    border-bottom-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
 header{
-    background-color: #0A151E;
-    padding: 15px;
+    margin-top: 30px;
+    background-color: var(--cor_header);
+    padding: 10px 70px;
+    border-radius: 40px;
+    max-width: fit-content;
+    margin-inline: auto;
 }
 h1 {
     font-size: 35px;
@@ -28,18 +45,7 @@ h1 {
     display: inline;
     margin-left: 470px;
 }
-.principal {
-    margin-top: 100px;
-    margin-inline: auto;
-    font-size: 40px;
-    color: white;
-    width: 700px;
-    font-family: "Oswald", serif;
-    a{
-        color: #FFE38A;
-        text-decoration: none;
-    }
-}
+
 p{
     margin-top: 100px;
     margin-inline: auto;
@@ -52,24 +58,36 @@ p{
 .Github {
     display: block;
     margin-inline: auto;
-    font-size: 20px;
+    font-size: 45px;
     text-decoration: none;
-    border: 3px solid white;
+    max-width: fit-content;
     color: black;
-    background-color: white;
-    border-radius: 30px;
-    padding: 10px 30px;
-    margin-top: 70px;
-    width: 120px;
+    font-family: var(--fonte_texto);
+    border-bottom: 6px solid transparent;
+    margin-top: 50px;
+}
+
+.Github:hover{
+    border-bottom-color: black;
 }
 
 .ultimo_p{
     font-size: 15px;
-    a{
-        color: white;
-    }
+    color: black;
     margin-bottom: 100px;
     margin-inline: auto;
-    width: fit-content;
+    max-width: fit-content;
+    font-size: 15px;
+    margin-top: 150px;
+}
+
+.principal{
+    color: black;
+    margin-inline: auto;
+    font-size: 60px;
+    max-height: fit-content;
+    max-width: fit-content;
+    font-family: var(--fonte_texto);
+    margin-top: 150px;
 }
 

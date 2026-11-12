@@ -9,7 +9,7 @@
 - Linkedin: www.linkedin.com/in/julio-cesar-messias-bitencourt-55b3a0433
 - Instagram: https://www.instagram.com/jcmb1of1/
 - Email: julioc.mbitencourt@gmail.com
-## Tecnologias
+## Tecnologias Utilizadas
 - HTML
 - CSS
 
